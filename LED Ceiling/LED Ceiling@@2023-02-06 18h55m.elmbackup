@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0.537254901960784" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.16">
-          <color red="0" green="255" blue="0" />
-          <zone1 media="55" />
+        <live intensity="0.825" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1.36999999999999">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="33" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -483,10 +483,10 @@
           <playlists />
         </schedule>
       </stage>
-      <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0.816666666666667" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.8">
+      <stage name="Multiply All" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
+        <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="2.05">
           <color red="255" green="255" blue="255" />
-          <zone1 media="112" />
+          <zone1 media="34" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -968,7 +968,7 @@
       <stage name="Straight Mult" id="71f79f42-46a6-4ed1-b6d4-fc4b7d4ae05b" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
         <live intensity="0.95" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="2.17000000000001">
           <color red="255" green="255" blue="255" />
-          <zone1 media="131" />
+          <zone1 media="12" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1100,7 +1100,7 @@
       <stage name="Diag 1 Mult" id="1ccc5bfd-32c8-453d-aa4c-3c02aad82637" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
         <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.3">
           <color red="255" green="255" blue="255" />
-          <zone1 media="116" />
+          <zone1 media="12" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1420,7 +1420,7 @@
       <stage name="Diag 2 Mult" id="e7fde509-15be-4daf-b792-19dac773a361" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
         <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.533333333333334">
           <color red="255" green="255" blue="255" />
-          <zone1 media="130" />
+          <zone1 media="12" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1568,7 +1568,7 @@
       <stage name="Straight Add" id="dfe5d08c-faa9-4905-9024-02ee761912c1" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="0" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1">
           <color red="255" green="255" blue="255" />
-          <zone1 media="74" />
+          <zone1 media="51" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1700,7 +1700,7 @@
       <stage name="Diag 1 Add" id="385c1596-819c-478b-ae69-ef602a9fee7c" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1">
           <color red="255" green="146" blue="0" />
-          <zone1 media="92" />
+          <zone1 media="99" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -2166,9 +2166,9 @@
         </schedule>
       </stage>
       <stage name="Borders Add" id="170f5087-d90c-4606-8971-271f9a152ecf" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="2.35">
-          <color red="0" green="255" blue="0" />
-          <zone1 media="94" />
+        <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.383333333333333">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="99" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -2243,7 +2243,7 @@
           <source relativePath="@animation&lt;node animation=&quot;circle&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="6" name="Hollow circle">
-          <source relativePath="@animation&lt;node animation=&quot;hollowCircle&quot; size1=&quot;0.1&quot; speed=&quot;2&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
+          <source relativePath="@animation&lt;node animation=&quot;hollowCircle&quot; size1=&quot;0.1&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="7" name="Rectangle">
           <source relativePath="@animation&lt;node animation=&quot;rectangle&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
@@ -2258,7 +2258,7 @@
           <source relativePath="@animation&lt;node animation=&quot;hvlines&quot; size1=&quot;0.109615384615385&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="11" name="Rotating line">
-          <source relativePath="@animation&lt;node animation=&quot;rotatingLine&quot; size1=&quot;0.0999999999999999&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
+          <source relativePath="@animation&lt;node animation=&quot;rotatingLine&quot; size1=&quot;0.1&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="12" name="Pie">
           <source relativePath="@animation&lt;node animation=&quot;pie&quot; speed=&quot;1&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
@@ -2348,7 +2348,7 @@
           <source relativePath="@glsl&lt;node name=&quot;flaring generator.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="41" name="Fractal dots">
-          <source relativePath="@glsl&lt;node name=&quot;fractal dots.frag&quot; nbItems=&quot;2&quot; size3=&quot;1.15384615384615&quot; size4=&quot;-0.0384615384615384&quot; size5=&quot;0&quot; size6=&quot;-13.8461538461538&quot; speed=&quot;0.384615384615385&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;fractal dots.frag&quot; nbItems=&quot;1&quot; size3=&quot;-3.33066907387547E-16&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="42" name="Geomechanical">
           <source relativePath="@glsl&lt;node name=&quot;geomechanical.frag&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
@@ -2390,7 +2390,7 @@
           <source relativePath="@glsl&lt;node name=&quot;lines segment.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="55" name="Lines shifting">
-          <source relativePath="@glsl&lt;node name=&quot;lines shifting.frag&quot; nbItems=&quot;2&quot; size1=&quot;7.23076923076923&quot; size3=&quot;0&quot; size4=&quot;0.115384615384615&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;lines shifting.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="56" name="Linescape">
           <source relativePath="@glsl&lt;node name=&quot;linescape.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
@@ -2486,7 +2486,7 @@
           <source relativePath="@glsl&lt;node name=&quot;tunnel ghost.frag&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="87" name="Voronoi distance">
-          <source relativePath="@glsl&lt;node name=&quot;voronoi distance.frag&quot; size1=&quot;4.98076923076923&quot; size3=&quot;3.07692307692308&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;2&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;voronoi distance.frag&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="88" name="Warp bubbles">
           <source relativePath="@glsl&lt;node name=&quot;warp bubbles.frag&quot; nbItems=&quot;3&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
