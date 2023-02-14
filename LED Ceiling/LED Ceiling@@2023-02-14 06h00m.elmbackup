@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0.1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="4.45">
+        <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10">
           <color red="255" green="255" blue="255" />
-          <zone1 media="1" />
+          <zone1 media="20" />
           <zone2 media="87" />
         </live>
         <fixtures>
@@ -2222,9 +2222,9 @@
         </schedule>
       </stage>
       <stage name="Line Add" id="35fde4c6-43f9-41f5-81bb-df1c6994e375" width="4895" height="20" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="5.12">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="92" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.793333333333333">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="25" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -2706,7 +2706,7 @@
           <source relativePath="@animation&lt;node animation=&quot;plain&quot; direction=&quot;none&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="1" name="Horizontal swing">
-          <source relativePath="@animation&lt;node animation=&quot;hline&quot; size1=&quot;0.05&quot; size2=&quot;0.3&quot; speed=&quot;1&quot; toggle1=&quot;False&quot; direction=&quot;right&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
+          <source relativePath="@animation&lt;node animation=&quot;hline&quot; size1=&quot;0.05&quot; size2=&quot;0.3&quot; speed=&quot;1&quot; toggle1=&quot;False&quot; direction=&quot;both&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="2" name="Color change">
           <source relativePath="@animation&lt;node animation=&quot;colorChange&quot; size1=&quot;0.1&quot; toggle1=&quot;False&quot;&gt;&lt;colors&gt;&lt;color red=&quot;0&quot; green=&quot;0&quot; blue=&quot;255&quot; /&gt;&lt;color red=&quot;255&quot; green=&quot;0&quot; blue=&quot;0&quot; /&gt;&lt;color red=&quot;0&quot; green=&quot;255&quot; blue=&quot;0&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
@@ -2978,9 +2978,6 @@
         <slot id="91" name="Water caustic">
           <source relativePath="@glsl&lt;node name=&quot;water caustic.frag&quot; nbItems=&quot;3&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
-        <slot id="92" name="Line scroll">
-          <source relativePath="@glsl&lt;node name=&quot;line scroll.frag&quot; nbItems2=&quot;54&quot; size1=&quot;1&quot; size2=&quot;1&quot; size3=&quot;-6.93877551020409&quot; size4=&quot;-1&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;0.0685714285714281&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
-        </slot>
       </slots>
     </media>
     <output>
@@ -2997,7 +2994,7 @@
         <universes />
       </kinetV1>
     </output>
-    <input dmxInputMode="EnttecUsbPro" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
+    <input dmxInputMode="ArtNet" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
     <ledPreviewColors>
       <color type="White" intensity="1" temperature="6600" />
       <color type="WhiteCool" intensity="0.33" temperature="9000" />
