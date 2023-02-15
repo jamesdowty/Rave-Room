@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.32">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
+        <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.752222222222222">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="33" />
           <zone2 media="55" />
         </live>
         <fixtures>
@@ -484,9 +484,9 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1.8">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
+        <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1.96">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="90" />
           <zone2 media="0" />
         </live>
         <fixtures>
@@ -966,9 +966,9 @@
         </schedule>
       </stage>
       <stage name="Straight Mult" id="71f79f42-46a6-4ed1-b6d4-fc4b7d4ae05b" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
+        <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.183333333333334">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="98" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1100,7 +1100,7 @@
       <stage name="Diag 1 Mult" id="1ccc5bfd-32c8-453d-aa4c-3c02aad82637" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
         <live intensity="1" crossfadeMs="2000" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="2.05">
           <color red="255" green="255" blue="255" />
-          <zone1 media="97" />
+          <zone1 media="98" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -2826,7 +2826,7 @@
           <source relativePath="@glsl&lt;node name=&quot;flaring generator.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="41" name="Fractal dots">
-          <source relativePath="@glsl&lt;node name=&quot;fractal dots.frag&quot; nbItems=&quot;4&quot; size3=&quot;0.35384615384615&quot; size4=&quot;-0.0384615384615384&quot; size5=&quot;0&quot; size6=&quot;-13.8461538461538&quot; speed=&quot;0.384615384615385&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;fractal dots.frag&quot; nbItems=&quot;2&quot; size3=&quot;1.15384615384615&quot; size4=&quot;-0.0384615384615384&quot; size5=&quot;0&quot; size6=&quot;-13.8461538461538&quot; speed=&quot;0.384615384615385&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="42" name="Geomechanical">
           <source relativePath="@glsl&lt;node name=&quot;geomechanical.frag&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
@@ -2910,7 +2910,7 @@
           <source relativePath="@glsl&lt;node name=&quot;particles.frag&quot; nbItems=&quot;3&quot; size1=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="69" name="Perlin noise">
-          <source relativePath="@glsl&lt;node name=&quot;perlin noise.frag&quot; size1=&quot;5.5&quot; size2=&quot;5.7093023255814&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;perlin noise.frag&quot; size1=&quot;5.5&quot; size2=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="70" name="Plasma fire">
           <source relativePath="@glsl&lt;node name=&quot;plasma fire.frag&quot; size1=&quot;5.5&quot; size2=&quot;5.5&quot; size3=&quot;0&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
