@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0.462745098039216" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.72">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="34" />
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.68">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="20" />
           <zone2 media="83" />
         </live>
         <fixtures>
@@ -484,10 +484,10 @@
         </schedule>
       </stage>
       <stage name="Straight Add" id="dfe5d08c-faa9-4905-9024-02ee761912c1" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
-          <zone2 media="94" />
+          <zone1 media="0" />
+          <zone2 media="0" />
         </live>
         <fixtures>
           <fixture group="RGB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="1" startAddress="0" breakUniverseAfter="0">
@@ -1084,9 +1084,9 @@
         </schedule>
       </stage>
       <stage name="Line Add" id="35fde4c6-43f9-41f5-81bb-df1c6994e375" width="4895" height="20" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.28">
           <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
+          <zone1 media="94" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1562,9 +1562,9 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.04">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="74" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10.2">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="20" />
           <zone2 media="60" />
         </live>
         <fixtures>
@@ -2046,7 +2046,7 @@
       <stage name="Borders Add" id="170f5087-d90c-4606-8971-271f9a152ecf" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="254" />
+          <zone1 media="0" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -2385,7 +2385,7 @@
           <source relativePath="@animation&lt;node animation=&quot;hline&quot; size1=&quot;0.0581967213114754&quot; size2=&quot;0.328688524590164&quot; speed=&quot;0.983606557377049&quot; toggle1=&quot;False&quot; direction=&quot;both&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="94" name="Line scroll">
-          <source relativePath="@glsl&lt;node name=&quot;line scroll.frag&quot; nbItems2=&quot;48&quot; size1=&quot;1&quot; size2=&quot;9.61151079136691&quot; size3=&quot;0&quot; size4=&quot;1&quot; size5=&quot;1&quot; size6=&quot;-138.561151079137&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;line scroll.frag&quot; nbItems2=&quot;48&quot; size1=&quot;1&quot; size2=&quot;9.61151079136691&quot; size3=&quot;0&quot; size4=&quot;1&quot; size5=&quot;1&quot; size6=&quot;-138.561151079137&quot; speed=&quot;-1.28571428571429&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
       </slots>
     </media>
@@ -2403,7 +2403,7 @@
         <universes />
       </kinetV1>
     </output>
-    <input dmxInputMode="ArtNet" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
+    <input dmxInputMode="EnttecUsbPro" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
     <ledPreviewColors>
       <color type="White" intensity="1" temperature="6600" />
       <color type="WhiteCool" intensity="0.33" temperature="9000" />
