@@ -2,10 +2,21 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="7.64">
-          <color red="0" green="0" blue="0" />
+        <live intensity="0.433588191631589" crossfadeMs="5000" fadePosition="0.95377182954437" mixEffect="WhiteFade" mixEffectPositionTransform="sigmoid" speed="0.31891496476025">
+          <color red="0" green="255" blue="0" />
           <zone1 media="80" />
-          <zone2 media="20" />
+          <zone2 media="32" />
+          <robot isStrobeEnabled="True" maxIntensity="1" minIntensity="0.4" recorderIndex="0">
+            <colors>
+              <color red="255" green="255" blue="255" />
+              <color red="255" green="0" blue="0" />
+              <color red="255" green="165" blue="0" />
+              <color red="255" green="255" blue="0" />
+              <color red="0" green="255" blue="0" />
+              <color red="0" green="128" blue="255" />
+              <color red="255" green="0" blue="128" />
+            </colors>
+          </robot>
         </live>
         <fixtures>
           <fixture group="GRB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="25" startAddress="0" breakUniverseAfter="0">
@@ -484,9 +495,9 @@
         </schedule>
       </stage>
       <stage name="Straight Add" id="dfe5d08c-faa9-4905-9024-02ee761912c1" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="4.4">
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10.2">
           <color red="0" green="0" blue="0" />
-          <zone1 media="8" />
+          <zone1 media="0" />
           <zone2 media="94" />
         </live>
         <fixtures>
@@ -1084,9 +1095,9 @@
         </schedule>
       </stage>
       <stage name="Line Add" id="35fde4c6-43f9-41f5-81bb-df1c6994e375" width="4895" height="20" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.28">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="94" />
+          <zone1 media="254" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1562,10 +1573,10 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="7.64">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="20" />
-          <zone2 media="60" />
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1.8">
+          <color red="255" green="255" blue="255" />
+          <zone1 media="74" />
+          <zone2 media="69" />
         </live>
         <fixtures>
           <fixture group="RGB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="1" startAddress="0" breakUniverseAfter="0">
@@ -2046,7 +2057,7 @@
       <stage name="Borders Add" id="170f5087-d90c-4606-8971-271f9a152ecf" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="0" />
+          <zone1 media="254" />
           <zone2 media="-1" />
         </live>
         <fixtures>
