@@ -3,7 +3,7 @@
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="1" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="5.8">
-          <color red="253" green="71" blue="0" />
+          <color red="255" green="53" blue="0" />
           <zone1 media="95" />
           <zone2 media="5" />
         </live>
