@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="1" />
+        <live intensity="0.215686274509804" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="1.52">
+          <color red="253" green="255" blue="0" />
+          <zone1 media="71" />
           <zone2 media="16" />
         </live>
         <fixtures>
@@ -484,9 +484,9 @@
         </schedule>
       </stage>
       <stage name="Straight Add" id="dfe5d08c-faa9-4905-9024-02ee761912c1" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="6.36">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="41" />
+          <zone1 media="254" />
           <zone2 media="94" />
         </live>
         <fixtures>
@@ -616,9 +616,9 @@
         </schedule>
       </stage>
       <stage name="Diag 1 Add" id="385c1596-819c-478b-ae69-ef602a9fee7c" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0.0705882352941176" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.32">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="38" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="254" />
           <zone2 media="98" />
         </live>
         <fixtures>
@@ -936,9 +936,9 @@
         </schedule>
       </stage>
       <stage name="Diag 2 Add" id="721638e2-1540-49c1-8659-73b1e7660560" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0.149019607843137" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.84">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="38" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="254" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1085,7 +1085,7 @@
       </stage>
       <stage name="Line Add" id="35fde4c6-43f9-41f5-81bb-df1c6994e375" width="4895" height="20" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
-          <color red="255" green="255" blue="255" />
+          <color red="0" green="0" blue="0" />
           <zone1 media="254" />
           <zone2 media="-1" />
         </live>
@@ -1562,9 +1562,9 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0.0666666666666667" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.28">
-          <color red="255" green="255" blue="255" />
-          <zone1 media="77" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.16">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="60" />
           <zone2 media="2" />
         </live>
         <fixtures>
@@ -2044,9 +2044,9 @@
         </schedule>
       </stage>
       <stage name="Borders Add" id="170f5087-d90c-4606-8971-271f9a152ecf" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10.2">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="2.6">
           <color red="0" green="0" blue="0" />
-          <zone1 media="36" />
+          <zone1 media="77" />
           <zone2 media="-1" />
         </live>
         <fixtures>
