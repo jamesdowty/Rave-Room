@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.04">
-          <color red="89" green="0" blue="255" />
-          <zone1 media="74" />
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="5.8">
+          <color red="0" green="0" blue="0" />
+          <zone1 media="95" />
           <zone2 media="34" />
         </live>
         <fixtures>
@@ -616,10 +616,10 @@
         </schedule>
       </stage>
       <stage name="Diag 1 Add" id="385c1596-819c-478b-ae69-ef602a9fee7c" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="6.28">
           <color red="0" green="0" blue="0" />
           <zone1 media="254" />
-          <zone2 media="0" />
+          <zone2 media="98" />
         </live>
         <fixtures>
           <fixture group="GRB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="2" startAddress="1" breakUniverseAfter="0">
@@ -936,9 +936,9 @@
         </schedule>
       </stage>
       <stage name="Diag 2 Add" id="721638e2-1540-49c1-8659-73b1e7660560" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="6.28">
           <color red="0" green="0" blue="0" />
-          <zone1 media="0" />
+          <zone1 media="98" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1084,9 +1084,9 @@
         </schedule>
       </stage>
       <stage name="Line Add" id="35fde4c6-43f9-41f5-81bb-df1c6994e375" width="4895" height="20" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="3.28">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="94" />
+          <zone1 media="254" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1562,10 +1562,10 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10.2">
-          <color red="255" green="255" blue="255" />
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="5.92">
+          <color red="0" green="0" blue="0" />
           <zone1 media="254" />
-          <zone2 media="99" />
+          <zone2 media="2" />
         </live>
         <fixtures>
           <fixture group="RGB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="1" startAddress="0" breakUniverseAfter="0">
@@ -2385,7 +2385,7 @@
           <source relativePath="@animation&lt;node animation=&quot;hline&quot; size1=&quot;0.0581967213114754&quot; size2=&quot;0.328688524590164&quot; speed=&quot;0.983606557377049&quot; toggle1=&quot;False&quot; direction=&quot;both&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
         </slot>
         <slot id="94" name="Line scroll">
-          <source relativePath="@glsl&lt;node name=&quot;line scroll.frag&quot; nbItems2=&quot;48&quot; size1=&quot;1&quot; size2=&quot;9.61151079136691&quot; size3=&quot;0&quot; size4=&quot;1&quot; size5=&quot;1&quot; size6=&quot;-138.561151079137&quot; speed=&quot;-2&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote&gt;&lt;evaluator param=&quot;Speed-Ex&quot; type=&quot;DMX&quot; address=&quot;444&quot; scaleMinimum=&quot;-2&quot; scaleMaximum=&quot;2&quot; nbChannels=&quot;1&quot; /&gt;&lt;/remote&gt;&lt;/node&gt;" type="7" />
+          <source relativePath="@glsl&lt;node name=&quot;line scroll.frag&quot; nbItems2=&quot;48&quot; size1=&quot;1&quot; size2=&quot;9.61151079136691&quot; size3=&quot;0&quot; size4=&quot;1&quot; size5=&quot;1&quot; size6=&quot;-138.561151079137&quot; speed=&quot;2&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote&gt;&lt;evaluator param=&quot;Speed-Ex&quot; type=&quot;DMX&quot; address=&quot;444&quot; scaleMinimum=&quot;-2&quot; scaleMaximum=&quot;2&quot; nbChannels=&quot;1&quot; /&gt;&lt;/remote&gt;&lt;/node&gt;" type="7" />
         </slot>
         <slot id="95" name="Lightning">
           <source relativePath="@glsl&lt;node name=&quot;lightning.frag&quot; nbItems=&quot;1&quot; size1=&quot;1.61224489795918&quot; size3=&quot;0.727367870225026&quot; size4=&quot;-1&quot; size5=&quot;-0.122448979591837&quot; size6=&quot;91.8367346938777&quot; speed=&quot;0.258503401360544&quot; color=&quot;grayscale&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
