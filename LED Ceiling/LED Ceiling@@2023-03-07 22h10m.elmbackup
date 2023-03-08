@@ -2,9 +2,9 @@
   <model fps="30" isStagesAccessRestricted="False">
     <stages>
       <stage name="Main Stage" id="89375bc4-4a2f-4180-9797-dee9797bb93f" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="8">
-          <color red="0" green="0" blue="0" />
-          <zone1 media="105" />
+        <live intensity="0.549019607843137" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0.04">
+          <color red="152" green="86" blue="255" />
+          <zone1 media="74" />
           <zone2 media="34" />
         </live>
         <fixtures>
@@ -616,7 +616,7 @@
         </schedule>
       </stage>
       <stage name="Diag 1 Add" id="385c1596-819c-478b-ae69-ef602a9fee7c" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
+        <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
           <zone1 media="254" />
           <zone2 media="0" />
@@ -938,7 +938,7 @@
       <stage name="Diag 2 Add" id="721638e2-1540-49c1-8659-73b1e7660560" width="1920" height="1700" media="-1" merge="add" hidden="False" locked="False">
         <live intensity="0" crossfadeMs="0" fadePosition="0" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="0">
           <color red="0" green="0" blue="0" />
-          <zone1 media="0" />
+          <zone1 media="254" />
           <zone2 media="-1" />
         </live>
         <fixtures>
@@ -1562,10 +1562,10 @@
         </schedule>
       </stage>
       <stage name="Main Mult" id="4d83f9ba-615f-4400-8ecd-be23eaca3510" width="1920" height="1700" media="-1" merge="multiply" hidden="False" locked="False">
-        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="10.2">
-          <color red="255" green="255" blue="255" />
+        <live intensity="0" crossfadeMs="0" fadePosition="1" mixEffect="CrossFade" mixEffectPositionTransform="sigmoid" speed="7.16">
+          <color red="0" green="0" blue="0" />
           <zone1 media="254" />
-          <zone2 media="99" />
+          <zone2 media="16" />
         </live>
         <fixtures>
           <fixture group="RGB01" group2="" ledType="GRB" dmxProtocol="ArtNet" startUniverse="1" startAddress="0" breakUniverseAfter="0">
@@ -2422,9 +2422,6 @@
         </slot>
         <slot id="106" name="Vertical swing">
           <source relativePath="@animation&lt;node animation=&quot;vline&quot; size1=&quot;0.05&quot; size2=&quot;0.3&quot; speed=&quot;1&quot; toggle1=&quot;False&quot; direction=&quot;down&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="4" />
-        </slot>
-        <slot id="107" name="Warp vortex fluid">
-          <source relativePath="@glsl&lt;node name=&quot;warp vortex fluid.frag&quot; nbItems=&quot;3&quot; size1=&quot;1.7&quot; size3=&quot;-0.34&quot; size4=&quot;0&quot; size5=&quot;0&quot; size6=&quot;0&quot; speed=&quot;1&quot; color=&quot;normal&quot;&gt;&lt;colors&gt;&lt;color red=&quot;255&quot; green=&quot;255&quot; blue=&quot;255&quot; /&gt;&lt;/colors&gt;&lt;remote /&gt;&lt;/node&gt;" type="7" />
         </slot>
       </slots>
     </media>
