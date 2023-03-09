@@ -2448,7 +2448,7 @@
         <universes />
       </kinetV1>
     </output>
-    <input dmxInputMode="EnttecUsbPro" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
+    <input dmxInputMode="ArtNet" dmxAddress="320" dmxValueMode="raw" controlMode="basic" dmxUniverse="0" mediaUniverseOffset="0" />
     <ledPreviewColors>
       <color type="White" intensity="1" temperature="6600" />
       <color type="WhiteCool" intensity="0.33" temperature="9000" />
